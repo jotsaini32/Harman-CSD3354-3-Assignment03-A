@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
+    // Manvir Singh C0730069
+    // Harmanjot Singh C0727172
+    
     public class BankAccount
     {
         private string m_customerName;
@@ -52,7 +55,7 @@ namespace Assignment
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            m_balance += amount;
+            m_balance -= amount;
 
         }
 
